@@ -21,7 +21,7 @@ function destructivelyRemoveFirstKitten(){
 }
 
 function appendKitten(name){
-kittens = kittens.concat(name);
+kittens = [...kittens, name]
  return kittens
 }
 
